@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@vueuse/nuxt": "^10.11.0",
+    "nuxt": "^3.12.2",
+    "valibot": "^0.36.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.13.1",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^14.12.3",
+    "vitest": "^1.6.0"
+  }
+}
